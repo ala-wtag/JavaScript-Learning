@@ -15,8 +15,7 @@ let person={
 };
 update(person);
 console.log(person.name); //Bob (changed)
-//In JavaScript, primitive types (numbers, strings, booleans, null, undefined, symbols...) are passed by value.
-//Objects (including arrays and functions) are passed by reference.
+//In JavaScript, primitive types (numbers, strings, booleans, null, undefined, symbols...) are passed by value; Objects (including arrays and functions) are passed by reference.
 //When you pass an object to a function, you're passing a reference to that object, not the actual object itself.
 
 //copying inside function

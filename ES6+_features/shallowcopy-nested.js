@@ -74,3 +74,4 @@ detail2.address.city = "Rajshahi";
 console.log(detail1.address.city); //still changed because address is a nested object (shallow copy)
 console.log(detail2.address.city); 
 //both the original and copied object reflect the change in the nested object
+
