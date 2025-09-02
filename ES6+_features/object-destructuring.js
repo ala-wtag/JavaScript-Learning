@@ -43,6 +43,20 @@ function printPerson({
 }
 
 printPerson({
-  name: "Bora",
+  name: "B",
   age: 30
 });
+
+// Default values in destructuring
+const {
+  name: personName = "Unknown",
+  age: personAge = 0,
+  country = "Unknown"
+} = {
+  name: "C",
+  age: 28
+};
+
+console.log(personName); 
+console.log(personAge);  
+console.log(country);   

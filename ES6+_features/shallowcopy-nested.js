@@ -49,7 +49,7 @@ arr4.push(4);
 console.log(arr3);  
 console.log(arr4);    //arr3 remains unchanged
 
-//object copy with apread
+//object copy with spread
 let obj3={name:"X", age:20};
 let obj4={...obj3};
 obj4.age=25;
