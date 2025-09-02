@@ -11,7 +11,7 @@ person2.address.city="Rajshahi";
 console.log(person1.address.city);
 console.log(person2.address.city);
 console.log(person1);
-console.log(person2);
+console.log(person2);  
 
 //deep copy using JSON methods
 let copy=JSON.parse(JSON.stringify(person1));
@@ -20,3 +20,5 @@ console.log(person1.address.city);
 console.log(copy.address.city);
 console.log(person1);
 console.log(copy);
+
+//Note: structuredClone handles more data types than JSON methods, such as Date, Map, Set, etc.
