@@ -9,3 +9,4 @@ const [n1, [n2, n3], n4] = nested;
 console.log(n1, n2, n3, n4); // 1 2 3 4
 
 
+//deconstructing means extracting values from arrays or objects and assigning them to variables in a more concise way.

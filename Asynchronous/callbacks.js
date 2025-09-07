@@ -6,4 +6,6 @@ function sayGoodbye(){
     console.log("Goodbye!");
 }
 
-greet("Alice", sayGoodbye);
+greet("Alice", sayGoodbye); 
+
+//here, sayGoodbye is a callback function executed after greet. 

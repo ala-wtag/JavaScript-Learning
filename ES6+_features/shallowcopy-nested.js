@@ -1,10 +1,10 @@
-//equating objects directly - points to the same object in memory.
 
+//using "="
 const person_1 = {
     name: "Harry",
     age: 24,
 };
-const person_2 = person_1;
+const person_2 = person_1; //equating objects directly - points to the same object in memory.
 console.log(person_2); 
 
 const person_3 = { name: "Alice", age: 25 };

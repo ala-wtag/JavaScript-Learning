@@ -13,3 +13,5 @@ let intervalId = setInterval(function() {
         clearInterval(intervalId); // stop after 3 times
     }
 }, 1000);   
+
+//HOW DOES SETINTERVAL WORK?
