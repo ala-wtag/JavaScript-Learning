@@ -9,3 +9,4 @@ const newOutput = multiplyBy2(10);
 console.log(num);
 console.log(output);
 console.log(newOutput);
+

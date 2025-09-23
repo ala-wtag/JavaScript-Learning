@@ -1,11 +1,11 @@
-function greet(name, callback) {
-    console.log("Hello " + name);
-    callback(); 
-}
-function sayGoodbye(){
-    console.log("Goodbye!");
+function doAsyncWork(callback) {
+  console.log("doAsyncWork started");
+  setTimeout(function() {
+    callback("result");
+  }, 1000);
 }
 
-greet("Alice", sayGoodbye); 
+doAsyncWork(function(data) {
+  console.log("callback received:", data);
+});
 
-//here, sayGoodbye is a callback function executed after greet. 
