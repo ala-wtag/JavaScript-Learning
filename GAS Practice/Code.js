@@ -114,7 +114,7 @@ function showAverage() {
   Logger.log('Average: ' + avg);
 }
 
-//TASK 1:
+//TASK 1: Email
 
 function sendReminders() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
@@ -138,7 +138,7 @@ function sendReminders() {
   const headers = data[0].map(h => String(h).trim());
   const rows = data.slice(1);
   const nameCol = headers.indexOf("Name");
-  const emailCol = headers.indexOf("Email");
+  const emailCol = headers.indexOf("Email"); 
   const statusCol = headers.indexOf("Status");
   let sentCol = headers.indexOf("Reminder Sent");
 
